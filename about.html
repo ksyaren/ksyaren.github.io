@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--CSS File -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Yaren Köse</title>
+</head>
+<body>
+    <div id="navbar">
+  
+        <div id="clock-nav"></div>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="">Hakkımda</a>
+            <a href="portfolio.html">Portfolyo</a>
+            <a href="contact.html">İletişim</a>
+        </nav>
+    </div>
+        
+    <div class="about-content">
+        <div id="photo-about">
+            <img src="images/me2.jpeg"  id="about-photo">
+        </div>
+        <div class="text-about"> 
+            <h1>Yaren Köse</h1>
+            <h5>Bilgisayar Mühendisi </h5>
+            <p id="bio" >Recep Tayyip Erdoğan Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisiyim. Yazılım geliştirme, web tasarımı ve siber güvenlik alanlarında kendimi geliştirmeye devam ediyorum. Gelecekte daha fazla projeye imza atmayı hedefliyorum. Eğitimim boyunca, HTML, CSS, JavaScript ve Python gibi çeşitli teknolojileri öğrenme fırsatı buldum. Bu dillerle projeler üreterek, tasarım ve yazılımı birleştirerek yaratıcı çözümler sunma konusunda kendime güveniyorum. Özellikle web uygulamaları geliştirmek ve kullanıcı deneyimini iyileştirmek üzerine çalışmayı seviyorum.</p>
+            <div id="addition-info" style="display: none;"> <!-- sayfa açıldığında gizlenmesi gereken bilgileri göstermez-->
+                <h5 id="title-education">Eğitim</h5>
+                <ul class="education-list">
+                    <li>
+                        <strong>Bilgisayar Mühendisliği</strong><br>
+                        Recep Tayyip Erdoğan Universitesi - Rize, Türkiye<br>
+                        <em>2021 - Günümüz</em>
+                    </li>
+                    <li>
+                        <strong>Yalova Anadolu Lisesi </strong><br>
+                        Yalova, Türkiye<br>
+                        <em>2017 - 2021</em>
+                    </li>
+                </ul>
+                <h5 id="title-education">Deneyim</h5>
+                <ul class="experience-list">
+                    <li>
+                        <strong>Çayeli Bakır İşletmeleri A.Ş.</strong><br>
+                        BT Stajyeri - Rize, Türkiye<br>
+                        <em>2024 - 2024</em>
+                    </li>
+                </ul>
+                
+            </div>
+            <button id="hide-button" onclick="HideBioText()">Daha Fazla Gör</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
